@@ -8,6 +8,8 @@ Includes support for:
 - Git workflow with lazygit
 - Treesitter-powered highlighting and indentation
 
+It was a fork from [kauffinger/lazyvim](https://github.com/kauffinger/lazyvim), but now it will take different directions.
+
 ---
 
 ## Installation
