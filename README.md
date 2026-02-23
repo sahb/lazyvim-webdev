@@ -1,4 +1,16 @@
-# Neovim + LazyVim Setup
+# My Neovim Configuration
+
+Personal Neovim setup based on [LazyVim](https://lazyvim.org), focused on PHP/Laravel development with Blade, Tailwind, and Intelephense. Tested on Ubuntu 24.04 and 25.10.
+
+Includes support for:
+- PHP/Laravel (Intelephense, Pint, Blade formatter, Rustywind, Tailwind LSP)
+- Claude Code integration via [claudecode.nvim](https://github.com/coder/claudecode.nvim)
+- Git workflow with lazygit
+- Treesitter-powered highlighting and indentation
+
+---
+
+## Installation
 
 Personal Neovim configuration based on [LazyVim](https://lazyvim.org), tested on Ubuntu 24.04.
 
