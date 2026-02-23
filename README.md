@@ -75,7 +75,7 @@ Clone this repository into the correct location. Remove any existing default con
 
 ```bash
 rm -rf ~/.config/nvim
-git clone https://github.com/sahb/lazyvim ~/.config/nvim
+git clone https://github.com/sahb/lazyvim-webdev ~/.config/nvim
 ```
 
 Open nvim and wait for LazyVim to automatically install all plugins.
