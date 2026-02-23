@@ -150,3 +150,18 @@ If you have an Intelephense Premium license, place it at the path below:
 echo "YOUR_KEY_HERE" > ~/intelephense/licence.txt
 ```
 
+
+---
+
+## Ubuntu 25.10 Notes
+
+### Terminal (Ptyxis)
+
+Ubuntu 25.10 replaces gnome-terminal with **Ptyxis** as the default terminal. The font configuration steps are the same, but the preferences path differs slightly — look for font settings under the profile options in Ptyxis preferences.
+
+### Clipboard (Wayland)
+
+Ubuntu 25.10 drops the X11 session entirely, running GNOME exclusively on Wayland. The `xclip` tool used for clipboard integration is X11-only and won't work. Install `wl-clipboard` instead:
+```bash
+sudo apt install wl-clipboard
+```
