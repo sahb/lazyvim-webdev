@@ -14,7 +14,6 @@ return {
             "htmldjango",
             "javascriptreact",
             "less",
-            "pug",
             "sass",
             "scss",
             "svelte",

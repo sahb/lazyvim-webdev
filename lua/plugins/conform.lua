@@ -1,7 +1,7 @@
-local util = require("conform.util")
 return {
   "stevearc/conform.nvim",
   opts = function()
+    local util = require("conform.util")
     ---@type conform.setupOpts
     local opts = {
       default_format_opts = {

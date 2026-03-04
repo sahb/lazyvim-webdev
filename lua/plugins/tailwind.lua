@@ -4,6 +4,28 @@ return {
     opts = {
       servers = {
         tailwindcss = {
+          filetypes = {
+            "astro",
+            "blade",
+            "css",
+            "eruby",
+            "haml",
+            "html",
+            "htmlangular",
+            "htmldjango",
+            "javascript",
+            "javascriptreact",
+            "less",
+            "liquid",
+            "php",
+            "sass",
+            "scss",
+            "stylus",
+            "svelte",
+            "typescript",
+            "typescriptreact",
+            "vue",
+          },
           settings = {
             tailwindCSS = {
               experimental = {
